@@ -1,0 +1,31 @@
+let nome
+let idade
+const ano = 2024
+let aniversario
+
+console.log("Como é o seu nome?")
+process.stdin.once('data', function(data)) { 
+nome = data.toString().trim()
+  console.log ("Qual é a sua idade?")
+  console.log("voce ja fez anivaersario esse ano?")  
+  process.stdin.once('data', function(data)) {
+    idade = parseInt(data.toString().trim())
+    processamento(nome, idade,resposta)
+    process.exit()
+   }
+  }
+   function processamento(nome,idade,resposta) {
+    anoNascimento= ano-idade
+
+    console.log(`Oi ${nome},vc tem ${idade} anos e nasceu em ${diferença}se vc já fez aniversário`)
+   }
+
+
+    function processamento (nome,idade) {} 
+        if (resposta=="sim"){ 
+    console.log(`Olá ${nome}, voce tem ${idade} anos`)
+    function processamento (nome,idade) {
+    }     
+      
+
+   

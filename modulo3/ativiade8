@@ -1,0 +1,3 @@
+let minhaMesa
+let minhaMesa=['Nayla', 'Titi','Rafa','Sam']
+console.log("Meu nome é Sam e meus colegas são Nayla,Tite,Rafa ")

@@ -1,0 +1,33 @@
+let numero
+
+console.log("digite um numero:")
+process.stdin.once('data',function(data) { 
+    numero = data.toString().trim()
+    process.exit()
+})
+
+        function processamento(número) { 
+            if (número ==0) { 
+
+     console.log("O número que e voce digitou é zero")
+} else if ( numero % 2 == 0)
+
+    console.log("O número que voce ditou é par")
+ } else 
+
+ console.log("O número que voce digitou é ímpar")
+ else if ()
+
+process.stadin.once ('data'), function(data) { 
+
+    resposta = data.topString().trim()
+    processamento(numero)
+
+
+}
+    process.exit() 
+
+
+
+
+ 
