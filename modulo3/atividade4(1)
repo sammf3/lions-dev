@@ -1,6 +1,6 @@
 let numero
 
-console.log("digite um numero:")
+console.log("DIGITE UM NUMERO")
 process.stdin.once('data',function(data) { 
     numero = data.toString().trim()
     process.exit()
